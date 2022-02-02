@@ -65,6 +65,16 @@
 
 	</head>
 	<body>
+		<script type="text/javascript">
+			(function(window, document, dataLayerName, id) {
+			window[dataLayerName]=window[dataLayerName]||[],window[dataLayerName].push({start:(new Date).getTime(),event:"stg.start"});var scripts=document.getElementsByTagName('script')[0],tags=document.createElement('script');
+			function stgCreateCookie(a,b,c){var d="";if(c){var e=new Date;e.setTime(e.getTime()+24*c*60*60*1e3),d="; expires="+e.toUTCString()}document.cookie=a+"="+b+d+"; path=/"}
+			var isStgDebug=(window.location.href.match("stg_debug")||document.cookie.match("stg_debug"))&&!window.location.href.match("stg_disable_debug");stgCreateCookie("stg_debug",isStgDebug?1:"",isStgDebug?14:-1);
+			var qP=[];dataLayerName!=="dataLayer"&&qP.push("data_layer_name="+dataLayerName),isStgDebug&&qP.push("stg_debug");var qPString=qP.length>0?("?"+qP.join("&")):"";
+			tags.async=!0,tags.src="https://danielness.containers.piwik.pro/"+id+".js"+qPString,scripts.parentNode.insertBefore(tags,scripts);
+			!function(a,n,i){a[n]=a[n]||{};for(var c=0;c<i.length;c++)!function(i){a[n][i]=a[n][i]||{},a[n][i].api=a[n][i].api||function(){var a=[].slice.call(arguments,0);"string"==typeof a[0]&&window[dataLayerName].push({event:n+"."+i+":"+a[0],parameters:[].slice.call(arguments,1)})}}(i[c])}(window,"ppms",["tm","cm"]);
+			})(window, document, 'dataLayer', 'be30388f-7bfa-4b2f-aae0-25cfa2408885');
+			</script><noscript><iframe src="https://danielness.containers.piwik.pro/be30388f-7bfa-4b2f-aae0-25cfa2408885/noscript.html" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	
 	<div id="fh5co-header">
 		<div class="container">
@@ -273,7 +283,7 @@
 								<a href="mailto:fotografiadanielness@gmail.com">e-mail</a>
 								<p>fotografiadanielness@gmail.com</p>
 							</div>
-							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d198.78751314972885!2d-6.828976392919933!3d37.13842537866711!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd11df2ebdb80467%3A0xc9ab7f08a0229f08!2sDANIEL%20NESS%20FOT%C3%93GRAFO!5e0!3m2!1ses!2ses!4v1643656474045!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d198.78751314972885!2d-6.828976392919933!3d37.13842537866711!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd11df2ebdb80467%3A0xc9ab7f08a0229f08!2sDANIEL%20NESS%20FOT%C3%93GRAFO!5e0!3m2!1ses!2ses!4v1643656474045!5m2!1ses!2ses" width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 						
 						
 						
