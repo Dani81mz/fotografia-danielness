@@ -792,6 +792,7 @@ p {
   -o-transition: 0.8s, ease-out;
   transition: 0.8s, ease-out;
 }
+
 .img-grid a .fh5co-title {
   font-size: 18px;
   color: #fff;
@@ -1031,6 +1032,11 @@ p {
     opacity: 0;
     top: 29%;
   }
+}
+video{
+  width: 60%;
+  margin: auto;
+  display: block;
 }
 
 /*# sourceMappingURL=style.css.map */
