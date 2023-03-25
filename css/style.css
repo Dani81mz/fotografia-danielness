@@ -340,6 +340,20 @@ p {
 /*
  * Flexslider
  */
+
+/**SLIDER**/
+
+
+/**https://www.youtube.com/watch?v=bW8X-tt5AZQ**/
+
+
+.texto-comunion{
+  color: #ececec;
+}
+
+
+/**END OF SLIDER**/
+
 #fh5co-home {
   min-height: 700px;
   background: #fff url(../images/loader.gif) no-repeat center center;
