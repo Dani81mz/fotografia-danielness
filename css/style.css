@@ -570,7 +570,7 @@ p {
 .cardcontainer .card a{
   font-weight: 500;
   text-decoration: none;
-  color: #3498db;
+  color: grey;
 }
 .cardcontainer .valentine-card{
   width: 330px;
@@ -860,8 +860,7 @@ p {
 
   @media (max-width: 560px){
     .whatsapp-icon{
-      /* grid-template-columns: unset; */
-      display: flex;
+      position: fixed;
     }
   }
 
