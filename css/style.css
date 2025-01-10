@@ -860,7 +860,7 @@ p {
 
   @media (max-width: 560px){
     .whatsapp-icon{
-      grid-template-columns: unset;
+      /* grid-template-columns: unset; */
       display: flex;
     }
   }
