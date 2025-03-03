@@ -620,6 +620,37 @@ p {
 }
 /**Fin de corazón**/
 
+/* PROMO EXTERIORES */
+.container-promo{
+  display: flex;
+  align-items: right;
+  justify-content: center;
+  position: relative;
+   max-width: 40%;
+  background-color: silver;
+  left: 140px;
+  align-items: center;
+
+  margin: 20px;
+  margin-bottom: 90px;
+  overflow: hidden;
+}
+.container-promo img{
+  padding: 20px;
+  border-radius: 20px;
+}
+.container-promo p{
+  color: white;
+  grid-column: auto;
+  margin: 5px;
+  text-wrap: wrap;
+  max-width: 80%;
+  line-height: 2.5rem;
+  
+
+}
+/* PROMO EXTERIORES */
+
 
 #fh5co-portfolio,
 #fh5co-about,
